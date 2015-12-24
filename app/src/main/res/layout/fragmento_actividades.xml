@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Fragmento de la sección "Actividades"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dee4ee"
+    android:orientation="vertical"
+    android:padding="@dimen/espacio_norma_1">
+
+    <!--Cajas de texto-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc_acti"
+        android:text="@string/tag_desc"
+        android:inputType="textNoSuggestions" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="@string/tag_type"
+        android:ems="10"
+        android:id="@+id/tipo_acti" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orga_acti"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tag_company"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/tag_person"
+        android:ems="10"
+        android:id="@+id/pers_acti"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nego_acti"
+        android:text="@string/tag_business"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/fech_acti"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tag_date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/valo_acti"
+        android:text="@string/tag_price" />
+
+    <!--Botón para agregar-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_add_activity"
+        android:id="@+id/botn_acti"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

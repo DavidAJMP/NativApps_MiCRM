@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Fragmento de la sesión "Personas"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dee4ee"
+    android:orientation="vertical"
+    android:padding="@dimen/espacio_norma_1">
+
+    <!--Cajas de texto-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/tag_name"
+        android:ems="10"
+        android:id="@+id/nomb_pers" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/tele_pers"
+        android:text="@string/tag_phone" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/mail_pers"
+        android:text="@string/tag_mail" />
+
+    <!--Botón para agregar-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_add_person"
+        android:id="@+id/botn_pers"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

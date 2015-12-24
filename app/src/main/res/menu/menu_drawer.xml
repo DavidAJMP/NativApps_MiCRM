@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Menú de navegación-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Ítems del menú de navegación-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:checked="true"
+            android:icon="@drawable/home"
+            android:title="@string/item_inicio" />
+        <item
+            android:id="@+id/item_personas"
+            android:icon="@drawable/people"
+            android:title="@string/item_cuenta" />
+        <item
+            android:id="@+id/item_organizaciones"
+            android:icon="@android:drawable/star_big_off"
+            android:title="@string/item_companies" />
+        <item
+            android:id="@+id/item_negocios"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="@string/item_business" />
+        <item
+            android:id="@+id/item_actividades"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/item_activities" />
+    </group>
+
+</menu>

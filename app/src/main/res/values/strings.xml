@@ -1,0 +1,41 @@
+<!--Recursos de texto-->
+<resources>
+
+    <string name="app_name">"MiCRM"</string>
+    <string name="app_dev">"NativApps"</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_carrito">Añadir al carrito</string>
+
+    <string name="item_inicio">Inicio</string>
+    <string name="item_cuenta">Personas</string>
+    <string name="item_companies">Organizaciones</string>
+    <string name="item_business">Negocios</string>
+    <string name="item_activities">Actividades</string>
+
+    <string name="tag_name">Nombre</string>
+    <string name="tag_phone">Teléfono</string>
+    <string name="tag_mail">Email</string>
+    <string name="tag_addrs">Dirección</string>
+    <string name="tag_title">Título</string>
+    <string name="tag_desc">Descripción</string>
+    <string name="tag_company">Organización</string>
+    <string name="tag_person">Persona</string>
+    <string name="tag_price">Valor</string>
+    <string name="tag_close_date">Fecha de cierre</string>
+    <string name="tag_type">Tipo</string>
+    <string name="tag_business">Negocio</string>
+    <string name="tag_date">Fecha</string>
+    <string name="tag_state">Estado</string>
+
+
+    <string name="tag_add_person">Agregar Persona</string>
+    <string name="tag_add_company">Agregar Organización</string>
+    <string name="tag_add_business">Agregar Negocio</string>
+    <string name="tag_add_activity">Agregar Actividad</string>
+
+    <string name="tag_toast_people">Persona agregada</string>
+    <string name="tag_toast_companies">Organización agregada</string>
+    <string name="tag_toast_business">Negocio agregado</string>
+    <string name="tag_toast_activities">Actividad agregada</string>
+</resources>

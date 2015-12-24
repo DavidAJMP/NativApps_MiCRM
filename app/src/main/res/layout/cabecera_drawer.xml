@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Cabecera del menú de navegación-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryColor"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_izquierdo_cabecera"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!--Logo-->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher" />
+
+    <!--Nombre de la app-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+        android:text="@string/app_name" />
+
+    <!--Desarrollador-->
+    <TextView
+        android:id="@+id/app_dev"
+        android:layout_width="346dp"
+        android:layout_height="match_parent"
+        android:text="@string/app_dev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"/>
+
+</LinearLayout>
